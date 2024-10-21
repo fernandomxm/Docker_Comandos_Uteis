@@ -11,8 +11,8 @@ docker image rm <br>
 docker pull alpine:latest (Download image) <br>
 docker tag alpine:latest registry.cloud.tenable.com/alpine:latest (Colocar TAG) <br>
 docker push registry.cloud.tenable.com/alpine:latest (Upload image para Scan Tenable) <br>
-
-**AWS ECR**
+<br>
+**AWS ECR** <br>
 aws ecr describe-repositories <br>
 aws ecr describe-images --repository-name amazonlinux <br>
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin account.dkr.ecr.us-east-1.amazonaws.com <br>
