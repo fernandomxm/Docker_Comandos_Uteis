@@ -18,7 +18,7 @@ aws ecr describe-images --repository-name amazonlinux <br>
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin account.dkr.ecr.us-east-1.amazonaws.com <br>
 docker pull account.dkr.ecr.us-east-1.amazonaws.com/idm/licensing <br>
 
-**DefectDojo Docker**
+**DefectDojo Docker** <br>
 sudo docker ps <br>
 docker exec -it 05b3a3471f6f bash <br>
 root@05b3a3471f6f:/# psql -U postgres <br>
